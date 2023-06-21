@@ -26,6 +26,7 @@
 		
 		<weaponTags>
 			<li>WarcasketMelee</li>
+		  <li MayRequire="vanillaexpanded.vpsycastse">VPE_EltexMelee</li>
 		</weaponTags>
 		
 		<modExtensions>
@@ -53,10 +54,6 @@
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
-			
-		<weaponTags>
-		  <li MayRequire="vanillaexpanded.vpsycastse">VPE_EltexMelee</li>
-		</weaponTags>
 		
 		<equippedStatOffsets>
 			<PsychicEntropyMax MayRequire="ludeon.rimworld.royalty">10</PsychicEntropyMax>

@@ -16,6 +16,9 @@
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>GF40K_RegularMelee</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -34,12 +37,6 @@
 				<disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
 			</li>
 		</modExtensions>
-		
-		<recipeMaker>
-			<researchPrerequisites>
-				<li>GF40K_RegularMelee</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		
 		<statBases>
 			<MarketValue>900</MarketValue>

@@ -16,16 +16,13 @@
 			<skillRequirements>
 				<Crafting>16</Crafting>
 			</skillRequirements>
-		</recipeMaker>
-		<smeltable>false</smeltable>
-		<burnableByRecipe>true</burnableByRecipe>
-		<notifyMapRemoved>true</notifyMapRemoved>
-		
-		<recipeMaker>
 			<researchPrerequisites>
 				<li>GF40K_RegularMelee</li>
 			</researchPrerequisites>
 		</recipeMaker>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<notifyMapRemoved>true</notifyMapRemoved>
 		
 		<statBases>
 			<MarketValue>964</MarketValue>
