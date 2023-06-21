@@ -19,6 +19,11 @@
 		<displayName>Vanilla Expanded Framework</displayName>
 		<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 	</li>
+	<li>
+		<packageId>oskarpotocki.vfe.pirates</packageId>
+		<displayName>Vanilla Factions Expanded - Pirates</displayName>
+		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2723801948</steamWorkshopUrl>
+	</li>
   </modDependencies>
   <loadAfter>
 	<li>GF40K.Core</li>

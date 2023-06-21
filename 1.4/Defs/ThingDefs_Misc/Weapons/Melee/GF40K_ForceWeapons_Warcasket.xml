@@ -182,7 +182,7 @@
 			<li>
 				<label>warcasket force staff's head</label>
 				<capacities>
-					<li>Crush</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>38.72</power>
 				<cooldownTime>2.2</cooldownTime>
