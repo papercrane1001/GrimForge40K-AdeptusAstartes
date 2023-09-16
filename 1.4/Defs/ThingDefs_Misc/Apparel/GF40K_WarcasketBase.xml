@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase">
+		<defName>GF40K_WarcasketBodysuit</defName>
+		<label>warcasket bodysuit</label>
+		<description>Basic bodysuit that serves as a base for warcasket shells.</description>
+		<thingClass>Apparel</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Armor/Bodysuit/Torso</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Item/Armor/Bodysuit/Torso</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<isUnifiedApparel>true</isUnifiedApparel>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"></colorGenerator>
+	</VFEPirates.WarcasketDef>
+
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketArmorBase" Abstract="True" Name="GF40K_WarcasketBase">
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<shellPosDrawSettings>
+					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
+					<drawPosWestOffset>(-0.03, 0, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0.03, 0, 0)</drawPosEastOffset>
+				</shellPosDrawSettings>
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<showBodyInBedAlways>true</showBodyInBedAlways>
+				<secondaryApparelGraphics>
+					<li>GF40K_WarcasketBodysuit</li>
+				</secondaryApparelGraphics>
+			</li>		
+			<li Class="VFECore.ApparelExtension">
+				<traitsOnEquip>
+					<li>VFEP_WarcasketTrait</li>
+				</traitsOnEquip>
+				<traitsOnUnequip>
+					<li>VFEP_Shellcasket</li>
+				</traitsOnUnequip>
+				<carryingCapacity>75</carryingCapacity>
+				<pawnCapacityMinLevels>
+					<li>
+						<capacity>Moving</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<minLevel>0.7</minLevel>
+					</li>
+				</pawnCapacityMinLevels>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="Grimforge.CompProperties_Decals">
+				<texPaths>
+					<li>Decals/chest_dec1</li>
+					<li>Decals/chest_dec2</li>
+					<li>Decals/chest_dec3</li>
+				</texPaths>
+			</li>
+		</comps>
+	</VFEPirates.WarcasketDef>
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Abstract="True" Name="GF40K_WarcasketShoulderPadBase">
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<isShoulderPads>true</isShoulderPads>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<shellPosDrawSettings>
+					<drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0.01, 0)</drawPosSouthOffset>
+					<drawPosWestOffset>(0, 0.01, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0.01, 0)</drawPosEastOffset>
+				</shellPosDrawSettings>
+				<isUnifiedApparel>true</isUnifiedApparel>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="Grimforge.CompProperties_Decals">
+				<texPaths>
+					<li>Decals/soulders_dec_1</li>
+					<li>Decals/soulders_icon_1</li>
+					<li>Decals/soulders_icon_2</li>
+				</texPaths>
+			</li>
+		</comps>
+	</VFEPirates.WarcasketDef>
+	
+	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Name="GF40K_WarcasketHelmetBase" Abstract="True">
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<isHelmet>true</isHelmet>
+		<researchPrerequisites>
+			<li>VFEP_Warcaskets</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<headgearDrawSettings>
+					<drawPosNorthOffset>(0, 0, 0.07)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0.001, 0.07)</drawPosSouthOffset>
+					<drawPosWestOffset>(-0.07, 0, 0.07)</drawPosWestOffset>
+					<drawPosEastOffset>(0.07, 0, 0.07)</drawPosEastOffset>
+				</headgearDrawSettings>
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="Grimforge.CompProperties_Decals">
+				<texPaths>
+					<li>Decals/helmet_dec_1</li>
+					<li>Decals/helmet_dec_2</li>
+				</texPaths>
+			</li>
+		</comps>		
+	</VFEPirates.WarcasketDef>
+	
+</Defs>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>GrimForge 40K: Adeptus Astartes</name>
+  <name>GrimForge 40.000: Adeptus Astartes</name>
   <author>Ogam</author>
   <packageId>GF40K.IoM.Warcaskets</packageId>
   <supportedVersions>
@@ -23,6 +23,11 @@
 		<packageId>oskarpotocki.vfe.pirates</packageId>
 		<displayName>Vanilla Factions Expanded - Pirates</displayName>
 		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2723801948</steamWorkshopUrl>
+	</li>
+	<li>
+		<packageId>GF40K.Core</packageId>
+		<displayName>Grimforge 40.000 Core</displayName>
+		<downloadUrl>https://github.com/EvilEyeGuy/GrimForge40K-Core</downloadUrl>
 	</li>
   </modDependencies>
   <loadAfter>
