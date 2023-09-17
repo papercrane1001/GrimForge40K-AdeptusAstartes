@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEPirates.WarcasketDef ParentName="GF40K_WarcasketBase">
+	<Grimforge.FortyKCasketDef ParentName="GF40K_WarcasketBase">
 		<defName>GF40K_Gravis_Warcasket</defName>
 		<label>gravis warcasket torso</label>
 		<shortDescription>.</shortDescription>
@@ -45,9 +45,9 @@
 				<li>WarcasketAll</li>
 			</tags>
 		</apparel>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 	
-	<VFEPirates.WarcasketDef ParentName="GF40K_WarcasketShoulderPadBase">
+	<Grimforge.FortyKCasketDef ParentName="GF40K_WarcasketShoulderPadBase">
 		<defName>GF40K_Gravis_WarcasketShoulders</defName>
 		<label>gravis warcasket shoulders</label>
 		<shortDescription>.</shortDescription>
@@ -93,6 +93,6 @@
 				<li>WarcasketAll</li>
 			</tags>
 		</apparel>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 
 </Defs>

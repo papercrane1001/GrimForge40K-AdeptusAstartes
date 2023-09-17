@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEPirates.WarcasketDef ParentName="GF40K_WarcasketHelmetBase">
+	<Grimforge.FortyKCasketDef ParentName="GF40K_WarcasketHelmetBase">
 		<defName>GF40K_Headgear_MarkX</defName>
 		<label>mark X helmet</label>
 		<shortDescription>.</shortDescription>
@@ -43,6 +43,6 @@
 				<li>WarcasketAll</li>
 			</tags>
 		</apparel>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 
 </Defs>

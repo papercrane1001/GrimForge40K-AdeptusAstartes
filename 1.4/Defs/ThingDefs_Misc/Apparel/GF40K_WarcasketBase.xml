@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase">
+	<Grimforge.FortyKCasketDef ParentName="VFEP_WarcasketPartBase">
 		<defName>GF40K_WarcasketBodysuit</defName>
 		<label>warcasket bodysuit</label>
 		<description>Basic bodysuit that serves as a base for warcasket shells.</description>
@@ -20,10 +20,11 @@
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"></colorGenerator>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 
-	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketArmorBase" Abstract="True" Name="GF40K_WarcasketBase">
+	<Grimforge.FortyKCasketDef ParentName="VFEP_WarcasketArmorBase" Abstract="True" Name="GF40K_WarcasketBase">
 		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Body</thingClass>
+		<maxEnergyAmount>100</maxEnergyAmount>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
 		</researchPrerequisites>
@@ -70,10 +71,11 @@
 				</texPaths>
 			</li>
 		</comps>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 	
-	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Abstract="True" Name="GF40K_WarcasketShoulderPadBase">
+	<Grimforge.FortyKCasketDef ParentName="VFEP_WarcasketPartBase" Abstract="True" Name="GF40K_WarcasketShoulderPadBase">
 		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Pads</thingClass>
+		<maxEnergyAmount>50</maxEnergyAmount>
 		<isShoulderPads>true</isShoulderPads>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
@@ -98,10 +100,11 @@
 				</texPaths>
 			</li>
 		</comps>
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 	
-	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Name="GF40K_WarcasketHelmetBase" Abstract="True">
+	<Grimforge.FortyKCasketDef ParentName="VFEP_WarcasketPartBase" Name="GF40K_WarcasketHelmetBase" Abstract="True">
 		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Helm</thingClass>
+		<maxEnergyAmount>50</maxEnergyAmount>
 		<isHelmet>true</isHelmet>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
@@ -126,6 +129,6 @@
 				</texPaths>
 			</li>
 		</comps>		
-	</VFEPirates.WarcasketDef>
+	</Grimforge.FortyKCasketDef>
 	
 </Defs>
