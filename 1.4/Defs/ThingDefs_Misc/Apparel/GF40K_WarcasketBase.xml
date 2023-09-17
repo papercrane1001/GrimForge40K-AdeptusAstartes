@@ -23,7 +23,7 @@
 	</VFEPirates.WarcasketDef>
 
 	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketArmorBase" Abstract="True" Name="GF40K_WarcasketBase">
-		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Body</thingClass>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
 		</researchPrerequisites>
@@ -73,7 +73,7 @@
 	</VFEPirates.WarcasketDef>
 	
 	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Abstract="True" Name="GF40K_WarcasketShoulderPadBase">
-		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Pads</thingClass>
 		<isShoulderPads>true</isShoulderPads>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
@@ -101,7 +101,7 @@
 	</VFEPirates.WarcasketDef>
 	
 	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase" Name="GF40K_WarcasketHelmetBase" Abstract="True">
-		<thingClass>Grimforge.Apparel_WarcasketGrimforge</thingClass>
+		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Helm</thingClass>
 		<isHelmet>true</isHelmet>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
