@@ -132,7 +132,7 @@
 	
 	<!-- Weapons -->
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
+	<!--ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
 		<defName>GF40K_Warcasket_ChainSword</defName>
 		<label>warcasket chain sword</label>
 		<description>This massive chainsaw sword is designed for use by Warcaskets, who are the only ones strong enough to wield it effectively. Its razor-sharp blade can cleave through flesh and bone, causing cutting damage, while the weight of the sword can Blunt bones and knock down foes, causing Blunting damage. It's a devastating weapon in the hands of a skilled Warcasket warrior.</description>
@@ -181,7 +181,7 @@
 				</graphicData>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
 
 	<ThingDef ParentName="GF40K_BaseMelee_Warcasket">
@@ -278,7 +278,7 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
+	<!--ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
 		<defName>GF40K_Warcasket_PowerMaul</defName>
 		<label>warcasket power maul</label>
 		<description>PLACEHOLDER</description>
@@ -326,9 +326,9 @@
 				</graphicData>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizePolearms">
+	<!--ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizePolearms">
 		<defName>GF40K_Warcasket_PowerSpear</defName>
 		<label>warcasket power spear</label>
 		<description>PLACEHOLDER</description>
@@ -376,9 +376,9 @@
 				</graphicData>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
+	<!--ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeSword">
 		<defName>GF40K_Warcasket_PowerSword</defName>
 		<label>warcasket power sword</label>
 		<description>PLACEHOLDER</description>	
@@ -426,9 +426,9 @@
 				</graphicData>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
-	<ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
+	<!--ThingDef ParentName="GF40K_BaseMelee_Warcasket_OversizeMaul">
 		<defName>GF40K_Warcasket_ThunderHammer</defName>
 		<label>warcasket thunder hammer</label>
 		<description>PLACEHOLDER</description>
@@ -483,5 +483,5 @@
 				</graphicData>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 </Defs>
