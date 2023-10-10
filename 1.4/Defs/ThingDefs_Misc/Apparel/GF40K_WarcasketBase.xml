@@ -25,6 +25,8 @@
 	<Grimforge.FortyKCasketDef ParentName="VFEP_WarcasketArmorBase" Abstract="True" Name="GF40K_WarcasketBase">
 		<thingClass>Grimforge.Apparel_WarcasketGrimforge_Body</thingClass>
 		<maxEnergyAmount>100</maxEnergyAmount>
+		<passives>
+		</passives>
 		<researchPrerequisites>
 			<li>VFEP_Warcaskets</li>
 		</researchPrerequisites>

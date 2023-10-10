@@ -45,6 +45,10 @@
 				<li>WarcasketAll</li>
 			</tags>
 		</apparel>
+		<maxEnergyAmount>300</maxEnergyAmount>
+		<passives>
+			<li>GFAA_TEST</li>
+		</passives>
 	</Grimforge.FortyKCasketDef>
 	
 	<Grimforge.FortyKCasketDef ParentName="GF40K_WarcasketShoulderPadBase">
