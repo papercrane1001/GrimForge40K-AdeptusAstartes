@@ -48,6 +48,8 @@
 		<maxEnergyAmount>300</maxEnergyAmount>
 		<passives>
 			<li>GFAA_TEST</li>
+			<li>GFAA_PoweredMode</li>
+			<li>GFAA_Overdrive</li>
 		</passives>
 	</Grimforge.FortyKCasketDef>
 	
