@@ -51,6 +51,9 @@
 			<li>GFAA_PoweredMode</li>
 			<li>GFAA_Overdrive</li>
 		</passives>
+		<actives>
+			<li>GFAA_PowerJump</li>
+		</actives>
 	</Grimforge.FortyKCasketDef>
 	
 	<Grimforge.FortyKCasketDef ParentName="GF40K_WarcasketShoulderPadBase">
