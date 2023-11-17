@@ -25,13 +25,13 @@
 		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2723801948</steamWorkshopUrl>
 	</li>
 	<li>
-		<packageId>GF40K.Core</packageId>
-		<displayName>Grimforge 40.000 Core</displayName>
-		<downloadUrl>https://github.com/EvilEyeGuy/GrimForge40K-Core</downloadUrl>
+		<packageId>phonicmas.40kcore</packageId>
+		<displayName>Warhammer 40.000 Core</displayName>
+		<downloadUrl>https://github.com/Phonicmas/Warhammer40kCore</downloadUrl>
 	</li>
   </modDependencies>
   <loadAfter>
-	<li>GF40K.Core</li>
+	<li>phonicmas.40kcore</li>
     <li>Ludeon.RimWorld</li>
 	<li>mlie.showmeyourhands</li>
 	<li>oskarpotocki.vfe.pirates</li>

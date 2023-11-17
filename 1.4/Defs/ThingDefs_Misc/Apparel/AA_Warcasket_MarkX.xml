@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- PA = PowerArmor, PAS = PowerArmorShoulders, PAH = PowerArmorHelmet -->
+	
+	<Grimforge.FortyKCasketDef ParentName="AA_WarcasketBase_Brute">
+		<defName>AA_PA_MarkX</defName>
+		<label>MarkX power armor</label>
+		<shortDescription>...</shortDescription>
+		<description>...</description>
+		<graphicData>
+			<texPath>Warcaskets/Armor/MarkX/Regular/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Warcaskets/Armor/MarkX/Regular/Armor</wornGraphicPath>
+		</apparel>
+	</Grimforge.FortyKCasketDef>
+	
+	<VFEPirates.WarcasketDef ParentName="AA_WarcasketShoulderBase_Brute">
+		<defName>AA_PAS_MarkX</defName>
+		<label>MarkX power armor shoulders</label>
+		<shortDescription>...</shortDescription>
+		<description>...</description>
+		<graphicData>
+			<texPath>Warcaskets/Armor/MarkX/Regular/_item_s</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Warcaskets/Armor/MarkX/Regular/Shoulders</wornGraphicPath>
+		</apparel>
+	</VFEPirates.WarcasketDef>
+	
+		<!-- Helmets -->
+	<VFEPirates.WarcasketDef ParentName="AA_WarcasketHelmetBase_Brute">
+		<defName>AA_PAH_MarkX</defName>
+		<label>MarkX power armor helmet</label>
+		<shortDescription>...</shortDescription>
+		<description>...</description>
+		<graphicData>
+			<texPath>Warcaskets/Armor/MarkX/Helmets/Regular/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Warcaskets/Armor/MarkX/Helmets/Regular/Helmet</wornGraphicPath>
+		</apparel>
+	</VFEPirates.WarcasketDef>
+
+</Defs>

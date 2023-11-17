@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketFoundry"]/researchPrerequisites</xpath>
+					<value>		
+						<researchPrerequisites>
+							<li>Electricity</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/VFEPirates.WarcasketDef[@ParentName="VFEP_WarcasketArmorBase" or @ParentName="VFEP_WarcasketShoulderPadBase" or @ParentName="VFEP_WarcasketHelmetBase"]/researchPrerequisites</xpath>
+					<value>		
+						<researchPrerequisites>
+							<li>Electricity</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketFoundry"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+					<value>		
+						<basePowerConsumption>-100</basePowerConsumption>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VFEP_WarcasketFoundry"]/comps/li[@Class="CompProperties_Power"]/compClass</xpath>
+					<value>		
+						<compClass>CompPowerPlant</compClass>
+					</value>
+				</li>
+				<!--<li Class="PatchOperationReplace">
+					<xpath>Defs/VFEPirates.WarcasketDef[@Name="AA_WarcasketBase_Brute or AA_WarcasketShoulderBase_Brute" or @Name="AA_WarcasketHelmetBase_Brute"]/researchPrerequisites</xpath>
+					<value>		
+						<researchPrerequisites>
+							<li>Electricity</li>
+						</researchPrerequisites>
+					</value>
+				</li>-->
+			</operations>
+		</match>
+	</Operation>
+</Patch>
