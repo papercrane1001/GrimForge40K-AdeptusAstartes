@@ -90,15 +90,6 @@
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
-		<comps>
-			<li Class="Grimforge.CompProperties_Decals">
-				<texPaths>
-					<li>TEST/Decals/chest_dec1</li>
-					<li>TEST/Decals/chest_dec2</li>
-					<li>TEST/Decals/chest_dec3</li>
-				</texPaths>
-			</li>
-		</comps>
 	</VFEPirates.WarcasketDef>
 	
 	<VFEPirates.WarcasketDef Name="AA_WarcasketShoulderBase_Brute" ParentName="VFEP_WarcasketShoulderPadBase" Abstract="True">
@@ -155,15 +146,6 @@
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
-		<comps>
-			<li Class="Grimforge.CompProperties_Decals">
-				<texPaths>
-					<li>TEST/Decals/soulders_dec_1</li>
-					<li>TEST/Decals/soulders_icon_1</li>
-					<li>TEST/Decals/soulders_icon_2</li>
-				</texPaths>
-			</li>
-		</comps>
 	</VFEPirates.WarcasketDef>
 	
 	<VFEPirates.WarcasketDef Name="AA_WarcasketHelmetBase_Brute" ParentName="VFEP_WarcasketHelmetBase" Abstract="True">
@@ -218,14 +200,6 @@
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
-		<comps>
-			<li Class="Grimforge.CompProperties_Decals">
-				<texPaths>
-					<li>TEST/Decals/helmet_dec_1</li>
-					<li>TEST/Decals/helmet_dec_2</li>
-				</texPaths>
-			</li>
-		</comps>
 	</VFEPirates.WarcasketDef>
 	
 	<VFEPirates.WarcasketDef ParentName="VFEP_WarcasketPartBase">
